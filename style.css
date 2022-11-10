@@ -22,12 +22,12 @@ li{
 }
 
 .big-container{
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
 }   
 
 .small-container{
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -46,7 +46,7 @@ header{
     background-color: white;
     height: 40px;
     padding: 9px;
-    font-size: 9px;
+    font-size: 12px;
 }
 .navbar{
     height: 100%;
@@ -102,13 +102,13 @@ display: flex;
 
 .information{
     margin-top: 20px;
-    width: calc(50%);
-    font-size: 12px;
+    width: 40%;
+    font-size: 15px;
 }
 
 .trial{
     margin-top: 20px;
-    font-size: 11px;
+    font-size: 15px;
     padding: 5px;
 
 }
@@ -118,9 +118,14 @@ display: flex;
 }
 
 .fa-arrow-down{
-    margin-top: 45px;
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 40px;
 }
+.client{
+    width: 50%;
+
+}
+
 
 .price{
     background-color: white;
@@ -129,12 +134,12 @@ display: flex;
 }
 
 h3{
-    font-size: 19px;
+    font-size: 23px;
 }
 
 .billing{
     margin-top: 20px;
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -170,7 +175,7 @@ h3{
     border: 1px solid gray;
     width: calc(100/3);
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 3px;
     padding-bottom: 20px;
 }
@@ -184,17 +189,17 @@ h3{
 
  .poss-ul{
     display: flex;
-    gap: 7px;
+    gap: 10px;
     flex-direction: column;
 }
 
 
 li{
-    font-size: 8px;
+    font-size: 12px;
 }
 
 h6{
-    font-size: 9px;
+    font-size: 15px;
 }
 
 .team{
@@ -222,7 +227,7 @@ h6{
     padding-bottom: 10px;
 }
 h5{
-    font-size: 15px
+    font-size: 19px
 }
 
 .left{
@@ -233,18 +238,18 @@ h5{
 }
 
 p {
-    font-size: 7px;
+    font-size: 12px;
 }
 
 .partner{
     
-    height: 200px;
+    height: 600px;
     display: flex;
 }
 .partner-right{
     width: 50%;
-    margin-top: 30px;
-    padding-left: 5px;
+    margin-top: 250px;
+    padding-left: 20px;
     padding-right: 15px;
 }
 .partner-left{
@@ -267,32 +272,33 @@ p {
 /* cards */
 .operetion{
     height: 400px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .cards{
     border: 1px dashed black;
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 100%;
     display: flex;
+    
 }
 
 .clumn{
-    margin: 0 auto;
     height: 100%;
-    width: calc(100/3);
+    width: calc(100%/3);
     display: flex;
     flex-direction: column;
-
+    border: 1px dashed black;
 }
 
 .card{
-    width: calc(100%/3);
-    height: 50%;
+   background-color: aqua;
+   width: 100%;
+   height: 200px;
+   border: 1px dashed black;
 }
 
-.img-card{
-    
+.card > p{
 }
 
 
