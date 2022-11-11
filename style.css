@@ -182,7 +182,7 @@ h3{
     flex-direction: column;
     gap: 25px;
     margin: 0 auto;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     width: calc(100/3);
     margin-top: 20px;
     font-size: 12px;
@@ -196,10 +196,15 @@ h3{
     font-size: 13px;
 }
 .box-title{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     padding: 5px;
 
+}
+
+.possibility > hr{
+    margin-left: 10px;
+    width: 30px;
 }
 
  .poss-ul{
@@ -239,14 +244,14 @@ h6{
 }
 
 .team{
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin-top: 30px;
 }
 
 .title-team{
     text-align: center;
     padding: 2px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .particular{
@@ -308,7 +313,7 @@ p {
 .partner-right > button{
     background-color: white;
     color: black;
-    border: 1px solid gray;
+    border: 2px solid lightgray;
     padding: 5px 5px;
     margin-top: 10px;
     font-size: 12px;
@@ -439,7 +444,7 @@ p {
 }
 
 .asu:hover{
-    border: 10px solid rgb(96, 51, 69);
+    border: 10px solid rgb(135, 103, 116);
 }
 .uf{
     background-color: rgb(0,147,206);
@@ -477,7 +482,7 @@ p {
 }
 
 .ch:hover{
-    border: 10px solid rgb(239, 222, 148);
+    border: 10px solid rgb(233, 220, 165);
 }
 
 .wbr{
@@ -492,10 +497,10 @@ p {
 .member-central{
     padding: 20px 20px;
     background-color: rgb(245,245,245);
-    border: 10px solid rgb(245,245,245);
+    border: 20px solid rgb(245,245,245);
 }
 .member-central:hover{
-    border: 10px solid rgb(158, 155, 155);
+    border: 20px solid rgb(198, 195, 195);
 }
 
 .member-central > img{
@@ -587,7 +592,7 @@ footer{
 }
 footer > .small-container{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin-top: 20px;
     height: 100%;
     align-items: center;
@@ -610,4 +615,8 @@ position: absolute;
 font-size: 12px;
 bottom: -25px;
 word-spacing: 3px;
+}
+
+.language > section{
+    margin-top: 8px;
 }
