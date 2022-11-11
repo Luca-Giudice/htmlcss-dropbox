@@ -303,7 +303,6 @@ p {
 .partner-right{
     width: 50%;
     padding-left: 20px;
-    padding-right: 10px;
     padding-top: 10%;
     display: flex;
     flex-direction: column;
@@ -321,8 +320,8 @@ p {
 .partner-right > button{
     background-color: white;
     color: black;
-    border: 2px solid lightgray;
-    padding: 5px 5px;
+    border: 1px solid black;
+    padding: 5px 4px;
     margin-top: 10px;
     font-size: 12px;
 }   
