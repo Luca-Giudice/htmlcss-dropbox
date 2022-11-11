@@ -21,6 +21,11 @@ li{
     display: flex;
 }
 
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
 .big-container{
     width: 800px;
     margin: 0 auto;
@@ -45,8 +50,11 @@ button{
 header{
     background-color: white;
     height: 40px;
+    width: 100%;
     padding: 9px;
     font-size: 12px;
+    position: fixed;
+    z-index: 1;
 }
 .navbar{
     height: 100%;
@@ -435,6 +443,9 @@ p {
     height: 50%;
 }
 
+.member-toops{
+    display: none;
+}
 .asu{
     position: absolute;
     right: 0;
