@@ -80,30 +80,32 @@ header{
 /* Main */
 
 .jumbotron{
-    background-color: rgb(116, 167, 211);
+    background-color: rgb(180,208,231);
     height: 400px;
     padding-top: 20px;
 }
 
 
 .title{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 h1{
     font-size: 38px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .central-jumbotron{
 display: flex;
+width: 800px;
 }
 
 .information{
-    margin-top: 20px;
+    margin-top: 29px;
     width: 40%;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .trial{
@@ -120,16 +122,24 @@ display: flex;
 .fa-arrow-down{
     margin-top: 20px;
     font-size: 40px;
+    margin-bottom: 30px;
 }
 .client{
-    width: 50%;
+    width: 60%;
+    position: relative;
 
 }
 
+.client > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -20;
+}
 
 .price{
     background-color: white;
-    height: 800px;
+    height: 1100px;
     padding-top: 60px;
 }
 
@@ -145,7 +155,7 @@ h3{
 
 .check-blu{
     padding: 0px 7px;
-    border: 5px solid blue;
+    border: 6px solid blue;
     border-radius: 50%;
     margin-right: 5px;
 }
@@ -176,14 +186,19 @@ h3{
     width: calc(100/3);
     margin-top: 20px;
     font-size: 12px;
-    padding: 0 3px;
-    padding-bottom: 20px;
+}
+.possibility > h5{
+    padding: 10px;
 }
 
+.possibility > h6{
+    padding: 10px;
+    font-size: 13px;
+}
 .box-title{
     border-bottom: 1px solid gray;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
 
 }
 
@@ -192,9 +207,31 @@ h3{
     flex-direction: column;
 }
 
+li > .fa-solid{
+    letter-spacing: 3px;
+}
 
 li{
     font-size: 12px;
+    padding-bottom: 10px;
+    padding: 10px;
+
+}
+
+.fa-check{
+    color: blue;
+    letter-spacing: 3px;
+}
+
+.possibility > button{
+    margin-left: 9px;
+    margin-right: 9px;
+    padding: 3px 3px;
+    font-size: 12px;
+}
+
+.possibility > p{
+    padding: 0 10px;
 }
 
 h6{
@@ -225,6 +262,11 @@ h6{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.specifications > button{
+padding: 5px 3px;
+}
+
 h5{
     font-size: 19px
 }
@@ -241,23 +283,25 @@ p {
 }
 
 .partner{
-    
-    height: 600px;
+    height: 400px;
     display: flex;
    
 }
 .partner-right{
     width: 50%;
-    margin-top: 250px;
     padding-left: 20px;
-    padding-right: 15px;
+    padding-right: 10px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .partner-left{
     background-image: url(img/partner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -272,14 +316,13 @@ p {
 
 /* cards */
 .operetion{
-    height: 700px;
-    margin-top: 10px;
+    height: 800px;
 }
 
-.operetion > h5{
-    margin-left: 363px;
-    margin-bottom: 10px;
+.operetion :first-child{
+    margin-bottom: 20px;
 }
+
 
 .operetion > .small-container{
     display: flex;
@@ -315,15 +358,14 @@ p {
 
 .half-container{
     
-    width: 300px;
+    width: 350px;
     margin-left: 370px;
     height: 100%;
 
 }
 
-.instertion > section{
-    width: 50px;
-    border: 1px dashed black
+.instertion{
+    width: 200px;
 }
 
 .half-container{
@@ -331,27 +373,28 @@ p {
     flex-direction: column;
     gap: 30px;
     justify-content: center;
+    height: 100%;
 }
 
 .member{
     display: flex;
-    height: 300px;
+    height: 35px;
     width: 100%;
-    border: 1px dashed black;
-    
+       
 }
 
 .member-left, .member-central, .member-right{
     width: calc(100% / 3);
-    border: 1px dashed black;
-    height: 300px;
+    
+    height: 400px;
     
     position: relative;
 }
 
 .designit{
-    width: 50%;
+    width: 60%;
     height: 30%;
+    filter: invert(1);
 }
 
 .brand{
@@ -364,11 +407,17 @@ p {
     
 }
 
+.de{
+    background-color:rgb(162,211,155);
+    border: 10px solid rgb(209,233,205)
+    
+}
+
 .topps{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: red;
+    background-color: rgb(255,28,28);
     color: white;
 }
 
@@ -376,21 +425,62 @@ p {
     position: absolute;
     right: 0;
     top: 0;
-    background-color:darkred;
+    background-color:rgb(97,8,43);
 }
 
 .uf{
-    background-color: aqua;
+    background-color: rgb(0,147,206);
 }
 
-.member-left{
+.hc{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color:rgb(180,208,231);
+
+}
+
+.lp{
+    background-color: rgb(13,36,129);
+}
+
+.ch{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(255,216,48);
+    color: white;
+}
+
+.wbr{
+    background-color: rgb(213,0,31);
+}
+
+.member-central{
+    padding: 20px 20px;
+    background-color: rgb(245,245,245);
+}
+
+.member-central > img{
+    width: 50%;
+    padding-bottom: 20px;
+
+}
+
+.member-central > hr{
+    width: 60px;
+}
+
+.member-central > p{
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
 .invite{
 
-    height: 200px;
-    background-color:  rgb(116, 167, 211);
+    height: 300px;
+    background-color:  rgb(180,208,231);
 }
 
 .invite > .small-container{
@@ -400,8 +490,27 @@ p {
     align-items: center;
 }
 
-.agency{
+.ib{
+    width: 40%;
+    display: flex;
+    justify-content: end;
 }
+
+.ip{
+    width: 60%;
+    padding-right: 40px;
+}
+.ip > h5{
+    font-size: 25px;
+}
+
+.ib > button{
+    background-color: rgb(253, 245, 245);
+    padding: 6px 13px;
+    color: black;
+}
+
+
 
 .for-user{
     height: 400px;
@@ -427,12 +536,13 @@ p {
 }
 
 
+
 /* Footer */
 
 footer{
     margin-top: 20px;
     background-color: black;
-    height: 300px;
+    height: 400px;
     color: white;
     font-size: 20px;
 }
@@ -445,7 +555,7 @@ footer > .small-container{
 }
 
 .link{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .link > li{
@@ -459,5 +569,6 @@ footer > .small-container{
 .language{
 position: absolute;
 font-size: 12px;
-bottom: -20px;
+bottom: -25px;
+word-spacing: 3px;
 }
